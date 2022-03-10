@@ -1,0 +1,11 @@
+.navbar{
+    background-color: #009966;
+}
+
+#text_logo{
+    font-family: "Papyrus";
+    font-size: 25px;
+    color: #FFB600;
+    opacity: 0.8;
+    font-weight: bold;
+}

@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+.body{
+    background-color: #33CC66;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.body p, h3, h2{
+    color: darkgoldenrod;
+    font-size: 30px;
+    font-weight: bold;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#sobre_h1{
+    color: darkgoldenrod;
+    font-family: Papyrus;
+    font-weight: bold;
+    padding-top: 20px;
+}
+#descripcion{
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#carrusel{
+    color: #FFB600;
 }
 
-.App-link {
-  color: #61dafb;
+
+#effect-hover .img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: relative;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#effect-hover #efecto {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    background-color: rgba(125, 222, 64, 0.8);
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+#effect-hover .img:hover #efecto {
+    opacity: 1;
+}
+
+#effect-hover h2 {
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 30px;
+    transition-duration: 2s;
+    margin: 0px;
+}
+
+#effect-hover .img:hover h2 {
+    top: 50px;
+}
+
+#effect-hover p {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 30px;
+    transition-duration: 2s;
+}
+
+#effect-hover .img:hover p {
+    bottom: 50px;
 }
