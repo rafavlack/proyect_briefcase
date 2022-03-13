@@ -23,6 +23,8 @@ import java_logo from '../src/assets/logos/java-seeklogo.com.svg'
 import javascript_logo from '../src/assets/logos/javascript-js-seeklogo.com.svg'
 import postman_logo from '../src/assets/logos/postman-seeklogo.com.svg'
 import intellij_logo from '../src/assets/logos/intellij-idea-seeklogo.com.svg'
+
+
 function App() {
     return (
     <>
