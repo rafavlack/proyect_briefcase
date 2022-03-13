@@ -3,9 +3,14 @@
 }
 
 #text_logo{
-    font-family: "Papyrus";
-    font-size: 25px;
-    color: #FFB600;
-    opacity: 0.8;
+    font-family: "Papyrus", fantasy;
+    font-size: 2rem;
+    color: #FFBA14;
     font-weight: bold;
+}
+
+#social_net a{
+    padding: 10px;
+    color: #b6c624;
+    font-size: 30px;
 }
