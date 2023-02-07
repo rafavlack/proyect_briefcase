@@ -1,6 +1,6 @@
 import './App.css';
-import Footer from './components/Footer'
-import Header from "./components/Header";
+import Footer from './components/footer/Footer'
+import Header from "./components/header/Header";
 import {Carousel, Col, Container, Row} from "react-bootstrap";
 import carrusel_2 from '../src/assets/docker.jpg'
 import carrusel_3 from '../src/assets/reactjs-component-lifecircle.jpg'
@@ -126,25 +126,33 @@ function App() {
 
             {/*QUIENSOY*/}
             <div id="quiensoy">
-
                     <Container id="quiensoy_explicacion">
-                        <div id="logo_javadev">
-                            <Image thumbnail={true} src={logo_javadev}/>
-                            <p>Desarrollamos aplicaciones web y Dekstop, pero si, pricipalmente web.
-                                En el desarrollo de éstas siempre tenemos en cuenta las buenas prácticas en el desarrollo de sotfware.
-                                Empleamos metodologías habiles y mantenemos constante retroalimentación con nuestros clientes.
-                                En nosotros podrá encontrar seriedad y transparencia, la profecionalidad es una parte escencial en nosotros.</p>
-                            <p>Dentro de la tecnologías, lenguajes de programación y frameworks empleados en nuestro día a día se encuentra:
-                                <br/>
-                                <br/>
-                                <li>ReactJS</li>
-                                <li>Java como nuestro lenguaje de programación favorito</li>
-                                <li>Spring Boot y todo lo que incluye el framework de Pivotal</li>
-                                <li>Bootstrap</li>
-                                <li>Soluciones de base de datos</li>
-                            </p>
+                        <div className="d-flex justify-content-between">
+                            <div id="logo_javadev">
+                                <p>
+                                    <Image id="image_logo" roundedCircle={true} src={logo_javadev}/>
+                                    Desarrollamos aplicaciones web y Desktop, pero si, principalmente web.
+                                    En el desarrollo de éstas siempre tenemos en cuenta las buenas prácticas en el desarrollo de sotfware.
+                                    Empleamos metodologías ágiles.
+                                    En nosotros podrá encontrar seriedad y transparencia, la profesionalidad es una parte escencial en nosotros.
+                                </p>
+                                <p>Dentro de la tecnologías, lenguajes de programación y frameworks empleados en nuestro día a día se encuentra:
+                                    <br/>
+                                    <br/>
+                                    <li>ReactJS</li>
+                                    <li>Spring Boot</li>
+                                    <li>API RestFul</li>
+                                    <li>Programación Java Funcional</li>
+                                    <li>React Bootstrap</li>
+                                    <li>Ant Desing</li>
+                                    <li>MySQL/MariaDB</li>
+                                    <li>PostgreSQL</li>
+                                    <li>Oracle DB</li>
+                                    <li>otras bases de datos</li>
+                                    <li>Docker</li>
+                                </p>
+                            </div>
                         </div>
-
                     </Container>
             </div>
 
@@ -157,7 +165,7 @@ function App() {
                                    className="img-fluid"/>
                             <div id="efecto">
                                 <h2>Dockerizacion </h2>
-                                <p>lorem ipsum atsais dase.</p>
+                                <p>Dockerizacion de microservicios y aplicaciones frontend.</p>
                             </div>
                         </div>
                     </div>
@@ -170,7 +178,7 @@ function App() {
                                    className="img-fluid"/>
                             <div id="efecto">
                                 <h2>Full Stack</h2>
-                                <p>lorem ipsum atsais dase.</p>
+                                <p>Desarrollamos tanto el Frontend como el Backend.</p>
                             </div>
                         </div>
                     </div>

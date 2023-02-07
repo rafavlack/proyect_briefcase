@@ -1,10 +1,10 @@
 .footer-dark {
-    font-family: "Century Gothic";
+    font-family: "Century Gothic", sans-serif;
     font-size: 20px;
     font-style: italic;
     padding:50px 0;
-    color: #FFB600;
-    background-color: #146C43;
+    color: #669933;
+    background-color: #1B1F23;
 }
 
 

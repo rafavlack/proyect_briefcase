@@ -1,24 +1,24 @@
 .body{
-    background-color: #33CC66;
+    background-color: #262A2D;
 
 }
 
 .body p, h3, h2{
-    color: darkgoldenrod;
+    color: #669933;
     font-size: 30px;
     font-weight: bold;
 
 }
 
 #sobre_h1{
-    color: darkgoldenrod;
+    color: #669933;
     font-family: Papyrus, fantasy;
     font-weight: bold;
 }
 
 #que_usamos{
     opacity: 0.8;
-    background-color: #EBF2F2;
+    background-color: #262A2D;
     padding: 50px;
 }
 
@@ -28,24 +28,25 @@
     padding-left: 20px;
 }
 
+
 #quiensoy_explicacion{
-    font-family: "Papyrus", fantasy;
+    font-family: "Times New Roman", sans-serif;
     text-align: justify;
-    text-justify: inter-word;
     padding: 20px;
+    align-content: space-around;
+
 }
 
-#quiensoy_explicacion p{
-    color: #02293A;
+#image_logo{
+   width: 150px;
+    height: 150px;
+    padding: 10px;
 }
-
 #carrusel{
-    color: #FFB600;
+    color: #669933;
 }
 
-#quiensoy{
-    background-color: #DBEEDB;
-}
+
 #quiensoy_image{
  padding-left: 40px;
  padding-top: 20px;
@@ -68,7 +69,7 @@
     margin: auto;
     width: 100%;
     height: auto;
-    background-color: rgba(125, 222, 64, 0.8);
+    background-color: rgba(30, 30, 29, 0.94);
     opacity: 0;
     transition: opacity 2s;
 }
@@ -106,3 +107,7 @@
     bottom: 50px;
 }
 
+#quiensoy{
+    background-color: #262A2D;
+    color: #669933;
+}

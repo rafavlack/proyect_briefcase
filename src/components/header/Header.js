@@ -1,8 +1,8 @@
 import React, {Component} from "react";
-import {Container, Image, Navbar, Tooltip} from "react-bootstrap";
-import logo_javadev from '../assets/logo.png'
+import {Container, Image, Nav, Navbar, NavDropdown, Tooltip} from "react-bootstrap";
+import logo_javadev from '../../assets/logo.png'
 import './Header.css'
-import {GithubOutlined, LinkedinOutlined} from "@ant-design/icons";
+import {GithubOutlined, LinkedinOutlined, MailOutlined, OneToOneOutlined, ShopOutlined} from "@ant-design/icons";
 
 class Header extends Component{
     render() {
@@ -23,10 +23,16 @@ class Header extends Component{
                         </Navbar.Brand>
                         <Navbar.Toggle />
                         <Navbar.Collapse className="justify-content-end">
+                            <Nav >
+                                <NavDropdown title="Proyectos" id="collasible-nav-dropdown">
+                                    <NavDropdown.Item href="http://78.138.51.169:8080/"  target="_blank" rel="noopener noreferrer"><ShopOutlined style={{color:"yellowgreen", width:"2em"}} /> Carrito de Compra</NavDropdown.Item>
+                                </NavDropdown>
+                            </Nav>
                             <Navbar.Text>
                                 <div id="social_net">
-                                    <a  href="https://github.com/rafavlack/"  target="_blank" rel="noopener noreferrer"><GithubOutlined/></a>
-                                    <a href="https://www.linkedin.com/in/rafael-barrientos-holder-666a6912a/"  target="_blank" rel="noopener noreferrer"><LinkedinOutlined /></a>
+                                    <a href="mailto:rafavlack@gmail.com"><MailOutlined/></a>
+                                    <a href="src/components/header/Header" target="_blank" rel="noopener noreferrer"><GithubOutlined/></a>
+                                    <a href="src/components/header/Header" target="_blank" rel="noopener noreferrer"><LinkedinOutlined /></a>
                                 </div>
                             </Navbar.Text>
                         </Navbar.Collapse>

@@ -1,0 +1,23 @@
+.navbar{
+    background-color: #1B1F23;
+
+}
+
+#text_logo{
+    font-family: "Verdana", ui-rounded;
+    font-size: 2rem;
+    color: #669933;
+    font-weight: bold;
+}
+
+#social_net a{
+    padding: 10px;
+    color: #669933;
+    font-size: 30px;
+}
+
+#collasible-nav-dropdown{
+    color:  #669933;
+    font-size: 1rem;
+    background-color: #262A2D;
+}

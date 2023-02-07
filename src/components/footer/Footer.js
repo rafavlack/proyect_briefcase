@@ -1,11 +1,11 @@
 import React, {Component} from "react";
 import "./Footer.css"
 import Image from 'react-bootstrap/Image'
-import logo from '../assets/logo.png'
-import logo_spring from '../assets/spring_boot_logo.png'
-import logo_react from '../assets/logo192.png'
-import logo_bootstrap from '../assets/bootstrap-icons.png'
-import logo_ant from '../assets/logos/ant-design-seeklogo.com.svg'
+import logo from '../../assets/logo.png'
+import logo_spring from '../../assets/spring_boot_logo.png'
+import logo_react from '../../assets/logo192.png'
+import logo_bootstrap from '../../assets/bootstrap-icons.png'
+import logo_ant from '../../assets/logos/ant-design-seeklogo.com.svg'
 import {ClusterOutlined, CodeOutlined, ConsoleSqlOutlined, MailOutlined} from "@ant-design/icons";
 
 const fecha = new Date().getFullYear();
